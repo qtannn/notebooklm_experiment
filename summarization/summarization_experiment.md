@@ -4,8 +4,7 @@
 Test NotebookLM's ability to summarize complex documents.
 
 ## Document Used
-*Title*: Applying predictive models to study the ecological properties of urban
-ecosystems: A case study in Zürich, Switzerland
+*Title*: Applying predictive models to study the ecological properties of urban ecosystems: A case study in Zürich, Switzerland
 *Type*: Research Article   
 *Length*: 13 pages 
 
