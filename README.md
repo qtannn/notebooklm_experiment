@@ -4,10 +4,10 @@ This repository documents the results of testing different capabilities of Noteb
 ## Repository Structure
 The repository is organized by functionality, with each functionality test stored in its folder:
 
-Summarization (/summarize): Tests NotebookLM's ability to generate concise summaries for complex documents.
-Question-Answering (/qa): Evaluates NotebookLM's effectiveness in answering specific questions about document content.
-Interactive Note-taking (/insights): Assesses NotebookLM's capacity to provide deeper insights and explanations for technical or complex sections.
-Content Synthesis (/cross_reference): Tests the ability to link and cross-reference related sections within documents.
+Summarization (/summarization): Tests NotebookLM's ability to generate concise summaries for complex documents.
+Question-Answering (/contextual_qanda): Evaluates NotebookLM's effectiveness in answering specific questions about document content.
+Interactive Note-taking (/notetaking): Assesses NotebookLM's capacity to generate note-taking and content augmentation based on provided notes
+Content Synthesis (/content_synthesis): Tests the ability to synthesise content across provided document. 
 
 ## Experiment Details
 Each folder contains:
@@ -22,16 +22,11 @@ References: Relevant links and references for further details.
 ## Results Summary
 Below is a summary of each functionality test:
 
-Summarization Test: Assesses how well NotebookLM generates summaries, focusing on accuracy and key point coverage.
-Question-Answering Test: Evaluates the accuracy and relevance of answers provided by NotebookLM for specific queries.
-Insights and Explanations Test: Documents NotebookLM’s ability to provide useful explanations and insights beyond simple summaries.
-Cross-Referencing Test: Tests the tool’s ability to link related sections within the content effectively.
-Research Organization Test: Reviews how well NotebookLM organizes and retrieves documents in various notebooks.
+- Summarization Test: The language model can effectively distil key points, main arguments, and conclusions from the text. However, summarizations might miss critical context or oversimplify important technical concepts.
+- Question-Answering Test: NotebookLM can provide accurate responses for straightforward questions but is less precise with complex, multi-part questions.
+- Interactive note-taking Test: NotebookLM may not be as effective for highly specialized or niche subjects where the augmentation is based on general content rather than domain-specific knowledge.
+- Content Synthesis Test: NotebookLM can synthesise the content well but misses some nuanced differences between the sources.
 
-## How to Use This Repository
-Clone this repository
-
-git clone https://github.com/YourUsername/notebooklm_experiment.git
 
 
 
