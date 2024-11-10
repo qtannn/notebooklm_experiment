@@ -4,20 +4,20 @@ This repository documents the results of testing different capabilities of Noteb
 ## Repository Structure
 The repository is organized by functionality, with each functionality test stored in its folder:
 
-Summarization (/summarization): Tests NotebookLM's ability to generate concise summaries for complex documents.
-Question-Answering (/contextual_qanda): Evaluates NotebookLM's effectiveness in answering specific questions about document content.
-Interactive Note-taking (/notetaking): Assesses NotebookLM's capacity to generate note-taking and content augmentation based on provided notes
-Content Synthesis (/content_synthesis): Tests the ability to synthesise content across provided document. 
+- Summarization (/summarization): Tests NotebookLM's ability to generate concise summaries for complex documents.
+- Question-Answering (/contextual_qanda): Evaluates NotebookLM's effectiveness in answering specific questions about document content.
+- Interactive Note-taking (/notetaking): Assesses NotebookLM's capacity to generate note-taking and content augmentation based on provided notes
+- Content Synthesis (/content_synthesis): Tests the ability to synthesise content across the provided documents. 
 
 ## Experiment Details
 Each folder contains:
 
-Experiment Documentation: Markdown files (e.g., experiment_1.md) that document each test, including:
-Objective: What each test aims to assess.
-Methodology: Steps and parameters used in the experiment.
-Results: Observations and findings.
-Conclusion: Summary of the feature’s performance.
-References: Relevant links and references for further details.
+- Experiment Documentation: Markdown files (e.g., experiment_1.md) that document each test, including:
+- Objective: What each test aims to assess.
+- Methodology: Steps and parameters used in the experiment.
+- Results: Observations and findings.
+- Conclusion: Summary of the feature’s performance.
+- References: Relevant links and references for further details.
 
 ## Results Summary
 Below is a summary of each functionality test:
