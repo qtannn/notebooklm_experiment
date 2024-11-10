@@ -8,7 +8,7 @@ Evaluate NotebookLM's accuracy and relevance in answering specific questions.
 - *Type*: Research Article   
 - *Length*: 52
 ----------------
-- *Title*: Explaining Image Captioning (Image to Text) using Azure Cognitive Services and Partition Explainer
+- *Title*: Explaining Image Captioning (Image to Text) using Azure Cognitive Services and Partition Explainer
 - *Type*: Website
 ----------------
 - *Title*: What is explainable AI?
